@@ -8,6 +8,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 A comprehensive and curated collection of **Model-Based Systems Engineering (MBSE) interview questions with answers**, organized by topic. Whether you are preparing for a role as a **Systems Engineer**, **MBSE Engineer**, **Systems Architect**, or focusing on **SysML** and **Digital Engineering** across aerospace, defense, automotive, and complex industrial systems, this guide is your ultimate resource. It also serves as an excellent reference for interviewers building robust **MBSE** and **Systems Engineering** question banks.
 
