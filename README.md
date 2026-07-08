@@ -4,11 +4,12 @@
   <img src="assets/banner.svg" alt="Awesome MBSE Engineer Interview Q&A Banner" width="100%">
 </div>
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A curated, no-fluff collection of **Model-Based Systems Engineering (MBSE) interview questions with answers**, organized by topic. Built for candidates prepping for Systems Engineer, MBSE Engineer, Systems Architect, and Digital Engineering roles across aerospace, defense, automotive, and complex industrial systems — and for interviewers building question banks.
+A comprehensive and curated collection of **Model-Based Systems Engineering (MBSE) interview questions with answers**, organized by topic. Whether you are preparing for a role as a **Systems Engineer**, **MBSE Engineer**, **Systems Architect**, or focusing on **SysML** and **Digital Engineering** across aerospace, defense, automotive, and complex industrial systems, this guide is your ultimate resource. It also serves as an excellent reference for interviewers building robust **MBSE** and **Systems Engineering** question banks.
 
 > 📎 **Scope note:** MBSE replaces (or augments) traditional document-centric systems engineering with a **formal, connected model** as the authoritative source of truth for requirements, architecture, behavior, and verification — typically expressed in SysML/UML and managed through the system lifecycle in a Digital Engineering ecosystem. This repo covers the methodology, the modeling languages, the verification/validation discipline built around the model, and the practical tooling/organizational realities of adopting MBSE in a real program.
 
