@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027" />
+      <stop offset="50%" stop-color="#203a43" />
+      <stop offset="100%" stop-color="#2c5364" />
+    </linearGradient>
+    
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <!-- Node animations -->
+    <style>
+      .title { font-family: 'Inter', system-ui, sans-serif; font-size: 48px; font-weight: 800; fill: #ffffff; text-anchor: middle; }
+      .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 20px; font-weight: 400; fill: #a0aec0; text-anchor: middle; letter-spacing: 2px; }
+      
+      .node { fill: url(#accent); opacity: 0.8; animation: pulse 3s infinite alternate; }
+      .node2 { fill: #4facfe; opacity: 0.6; animation: pulse 4s infinite alternate-reverse; }
+      .line { stroke: rgba(79, 172, 254, 0.3); stroke-width: 2; }
+      .dash-line { stroke: rgba(0, 242, 254, 0.5); stroke-width: 2; stroke-dasharray: 5, 5; animation: dash 20s linear infinite; }
+      
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.5; }
+        100% { transform: scale(1.2); opacity: 0.9; }
+      }
+      
+      @keyframes dash {
+        to { stroke-dashoffset: -100; }
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      
+      .content-group { animation: float 6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)" rx="16" />
+
+  <!-- Network background pattern -->
+  <g>
+    <line x1="100" y1="50" x2="200" y2="150" class="line" />
+    <line x1="200" y1="150" x2="150" y2="200" class="dash-line" />
+    <line x1="200" y1="150" x2="300" y2="100" class="line" />
+    
+    <line x1="700" y1="50" x2="600" y2="150" class="line" />
+    <line x1="600" y1="150" x2="650" y2="200" class="dash-line" />
+    <line x1="600" y1="150" x2="500" y2="100" class="line" />
+
+    <circle cx="100" cy="50" r="6" class="node" style="transform-origin: 100px 50px" />
+    <circle cx="200" cy="150" r="8" class="node2" style="transform-origin: 200px 150px" />
+    <circle cx="150" cy="200" r="5" class="node" style="transform-origin: 150px 200px" />
+    <circle cx="300" cy="100" r="4" class="node2" style="transform-origin: 300px 100px" />
+
+    <circle cx="700" cy="50" r="6" class="node" style="transform-origin: 700px 50px" />
+    <circle cx="600" cy="150" r="8" class="node2" style="transform-origin: 600px 150px" />
+    <circle cx="650" cy="200" r="5" class="node" style="transform-origin: 650px 200px" />
+    <circle cx="500" cy="100" r="4" class="node2" style="transform-origin: 500px 100px" />
+  </g>
+
+  <!-- Main text -->
+  <g class="content-group">
+    <text x="400" y="120" class="title">MBSE INTERVIEW Q&amp;A</text>
+    <text x="400" y="160" class="subtitle">MODEL-BASED SYSTEMS ENGINEERING</text>
+    
+    <!-- Code brackets decorative -->
+    <path d="M 180 90 L 150 120 L 180 150" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    <path d="M 620 90 L 650 120 L 620 150" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  </g>
+</svg>

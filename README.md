@@ -1,5 +1,9 @@
 # Awesome Model-Based Systems Engineer (MBSE) Interview Q&A 🧬📐🔧
 
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome MBSE Engineer Interview Q&A Banner" width="100%">
+</div>
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -38,20 +42,20 @@ Every answer aims to be **concise, correct, and interview-ready** — the kind o
 
 ## 🧭 How to Use This Repo
 
-- **Cramming for an interview next week?** Start with the topic weighted heaviest for your target role (see below), and read the "Follow-up" notes — interviewers almost always dig deeper.
-- **Deep prep over weeks?** Work through every file top to bottom — for the modeling-heavy topics (SysML, behavioral modeling), sketch the diagrams yourself rather than only reading the answer.
-- **Interviewing candidates?** Use these as a base question bank — mix easy/medium/hard per round, and use the scenario/behavioral questions to gauge program-level judgment, not just diagram syntax knowledge.
+- 🏃 **Cramming for an interview next week?** Start with the topic weighted heaviest for your target role (see below), and read the "Follow-up" notes — interviewers almost always dig deeper.
+- 🧠 **Deep prep over weeks?** Work through every file top to bottom — for the modeling-heavy topics (SysML, behavioral modeling), sketch the diagrams yourself rather than only reading the answer.
+- 📋 **Interviewing candidates?** Use these as a base question bank — mix easy/medium/hard per round, and use the scenario/behavioral questions to gauge program-level judgment, not just diagram syntax knowledge.
 
-### Suggested focus by role
+### 🎯 Suggested focus by role
 
-| Role | Prioritize |
+| 🧑‍💻 Role | 🥇 Prioritize |
 |------|------------|
-| Systems Engineer (generalist) | Systems Engineering Fundamentals, Requirements Engineering, V&V, Standards |
-| MBSE/SysML Modeler | SysML Fundamentals, Behavioral Modeling, System Architecture, Tools/Ecosystem |
-| Systems Architect | System Architecture, Interface Management, Digital Engineering, Standards |
-| V&V / Test Engineer | Verification & Validation, Requirements Traceability, Simulation/Executable MBSE |
-| Digital Engineering Lead | Digital Engineering/Digital Twin, Model Management, Tools/Ecosystem |
-| Configuration Manager (model-based) | Model Management/Configuration, Interface Management, Standards |
+| 🛠️ Systems Engineer (generalist) | Systems Engineering Fundamentals, Requirements Engineering, V&V, Standards |
+| 🏗️ MBSE/SysML Modeler | SysML Fundamentals, Behavioral Modeling, System Architecture, Tools/Ecosystem |
+| 🏛️ Systems Architect | System Architecture, Interface Management, Digital Engineering, Standards |
+| 🧪 V&V / Test Engineer | Verification & Validation, Requirements Traceability, Simulation/Executable MBSE |
+| 🚀 Digital Engineering Lead | Digital Engineering/Digital Twin, Model Management, Tools/Ecosystem |
+| 📦 Configuration Manager (model-based) | Model Management/Configuration, Interface Management, Standards |
 
 ---
 
